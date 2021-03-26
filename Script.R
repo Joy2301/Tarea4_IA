@@ -12,7 +12,7 @@ library(dplyr)
 library(ggplot2)
 
 #Le pasamos los datos a la variable datos
-Datos <- read_csv2("EstadisticasCultivo2019.csv")
+Datos <- read_csv2("https://iad.gob.do/download/549/estadisticas-de-cultivos-2019/7481/estadisticas-de-cultivo-iad-2019.csv")
 View(Datos)
 
 #Dividimos los datos de los cultivos segun el trimestre
